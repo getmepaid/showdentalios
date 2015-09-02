@@ -1,6 +1,6 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="youfeellike" version="1.0.0">
-  <name>You Feel Like</name>
-  <description>Entertainment Audio to share with your friends.</description>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="alaaka" version="1.0.0">
+  <name>Alaaka - Watch & Interview</name>
+  <description>Alaaka - Watch & Interview.</description>
   <author href="http://realdealagency.com" email="support@realdealagency.com">Real Deal Team</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
