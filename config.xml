@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="alaaka" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.alaaka" version="1.0.0">
   <name>Alaaka - Watch and Interview</name>
   <description>Alaaka - Watch and Interview.</description>
   <author href="http://realdealagency.com" email="support@realdealagency.com">Real Deal Team</author>
