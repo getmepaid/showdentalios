@@ -20,6 +20,7 @@
   <preference name="android-installLocation" value="auto"/>
   <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
   <gap:plugin name="cordova-plugin-network-information" source="npm"/>
+  <gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
   <icon src="icon.png"/>
   <gap:splash src="splash.png"/>
   <preference name="SplashScreen" value="screen" />
