@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.alaaka.com" version="1.0.0">
-  <name>Alaaka</name>
-  <description>Alaaka - Watch and Interview.</description>
+  <name>Showdental</name>
+  <description>Showdental.</description>
   <author href="http://realdealagency.com" email="support@realdealagency.com">Real Deal Team</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
@@ -18,9 +18,7 @@
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="7"/>
   <preference name="android-installLocation" value="auto"/>
-  <gap:plugin name="org.apache.cordova.battery-status"/>
-  <gap:plugin name="org.apache.cordova.camera"/>
-  <gap:plugin name="org.apache.cordova.media-capture"/>
+    <gap:plugin name="org.apache.cordova.camera"/>
   <gap:plugin name="org.apache.cordova.console"/>
   <gap:plugin name="org.apache.cordova.contacts"/>
   <gap:plugin name="org.apache.cordova.device"/>
