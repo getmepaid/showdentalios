@@ -22,6 +22,8 @@
   <gap:plugin name="cordova-plugin-network-information" source="npm"/>
   <icon src="icon.png"/>
   <gap:splash src="splash.png"/>
+  <preference name="SplashScreen" value="screen" />
+  <preference name="SplashScreenDelay" value="10000" />
   <access origin="*"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
   <allow-intent href="http://*/*"/>
