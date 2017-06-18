@@ -16,15 +16,16 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-       // app.receivedEvent('deviceready');
-	   //window.open('http://youfeellike.sharedin.net', '_blank', 'location=no')
-	   var inAppBrowserbRef;
-       inAppBrowserbRef = window.open('http://www.showdental.com', '_blank', 'location=no,toolbar=no');
-         inAppBrowserbRef.addEventListener('loadstart', inAppBrowserbLoadStart);
-         inAppBrowserbRef.addEventListener('loadstop', inAppBrowserbLoadStop);
-         inAppBrowserbRef.addEventListener('loaderror', inAppBrowserbLoadError);
-         inAppBrowserbRef.addEventListener('exit', inAppBrowserbClose);
+       $('#Load').load('http://www.showdental.com');
 
+	/*Using ajax*/
+	$.ajax({
+	  dataType:'html',
+	  url:'http://www.showdental.com',
+	  success:function(data) {
+	    $('#ajax').html($(data).children());   
+	  }
+	});
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
