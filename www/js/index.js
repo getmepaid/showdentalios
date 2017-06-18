@@ -23,7 +23,8 @@ var app = {
 	  dataType:'html',
 	  url:'http://www.showdental.com',
 	  success:function(data) {
-	    $('#ajax').html($(data).children());   
+	    $('#ajax').html($(data).children());
+	    alert("success");
 	  }
 	});
     },
