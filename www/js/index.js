@@ -2,6 +2,15 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+	/*Using ajax*/
+	$.ajax({
+	  dataType:'html',
+	  url:'http://www.showdental.com',
+	  success:function(data) {
+	    $('#ajax').html($(data).children());
+	    alert("success");
+	  }
+	});
     },
     // Bind Event Listeners
     //
